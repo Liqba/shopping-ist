@@ -105,7 +105,6 @@ def delete_product(request, id):
 
 
 @csrf_exempt
-@csrf_exempt
 def add_product_ajax(request):
     if request.method == 'POST':
         name = request.POST.get("name")
